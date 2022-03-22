@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header {
+    
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
+
+body {
+    background-color: rgb(217, 243, 217);
+}
+
+ul  {
+    display: flex;
+    background-color: rgb(231, 204, 114);
+    justify-content: space-evenly;
+    text-decoration: underline;
+    color: rgb(30, 119, 67);
+    list-style-type: none;
+}
+
+a {
+    font-size: 20px;
+}
+
+.topics {
+    display: flex;
+    justify-content: space-evenly;
+    position:relative;
+    flex-direction: column;
+    top: 40px;  
+    align-items: center;
+    
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 500px;
+    max-height: 400px;
+    margin-top: 60px;
+    
+}
+
+.topic-header {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 14px;
+
+}
+
+.paragraph {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color:rgb(30, 119, 67);
+    color:rgb(231, 204, 114);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text-center {
+    text-align:center;
+
+}
+
+#name {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#aboutme {
+    width: 800px;
+    border: 15px solid green;
+    margin: 20px;
+    text-align: center;
+    height: 320px;
+    background: rgb(231, 204, 114) ;
+}
+
+
+#github {
+    width: 800px;
+    border: 15px solid green;
+    margin: 20px;
+    text-align: center;
+    height: 240px;
+    background: rgb(231, 204, 114) ;
+}
+
+
+#portfolio {
+    width: 800px;
+    border: 15px solid green;
+    margin: 20px;
+    text-align: center;
+    height: 240px;
+    background: rgb(231, 204, 114) ;
+}
+
+#contactme {
+    width: 800px;
+    border: 15px solid green;
+    margin: 20px;
+    text-align: center;
+    height: 210px;
+    background: rgb(231, 204, 114) ;
+}
+
+form { max-width:500px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: rgb(231, 204, 114);
+  border:2px solid green ;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid green; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: rgb(231, 204, 114);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: solid green;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: solid green; } 
+
+
+
+
+
+/*
+1. how to move contact form to the left and image to the right
+2. how to put the contact me in a box
+3. how to move box down 
+4. having trouble with link to my boxes
